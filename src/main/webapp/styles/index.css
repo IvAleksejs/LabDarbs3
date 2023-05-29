@@ -1,0 +1,223 @@
+@import url(https://fonts.googleapis.com/css2?family=Overpass&display=swap);
+body {
+  font-family: 'Overpass', sans-serif;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  margin-top: 15%;
+}
+
+body .body {
+  min-width: 300px;
+  padding: 20px;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 2px #767676, 0 0 20px #bbbbbb, 0 0 5px #dddddd;
+          box-shadow: 1px 1px 2px #767676, 0 0 20px #bbbbbb, 0 0 5px #dddddd;
+  background-color: #f1f1f1;
+}
+
+body .body.list {
+  min-width: 500px;
+}
+
+body .body.list .deleteList {
+  text-align: right;
+}
+
+body .body.list .deleteList button {
+  background-color: #f1f1f1;
+  border-color: #f44336;
+  border-radius: 10px;
+  color: black;
+  padding: 3px 5px;
+  text-align: center;
+  margin: 2px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+body .body.list .deleteList button:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+body .body.download div {
+  text-align: center;
+  margin: 30px 0px;
+}
+
+body .body.download div button {
+  background-color: #f1f1f1;
+  border-color: #4CAF50;
+  border-radius: 10px;
+  color: black;
+  padding: 3px 5px;
+  text-align: center;
+  margin: 2px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+body .body.download div button:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+body .body #selectList {
+  padding: 3px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+body .body #selectList:hover {
+  -webkit-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+body .body .sync {
+  color: black;
+  border: 2px solid #555555;
+  border-radius: 10px;
+  padding: 2px 2px;
+  text-align: center;
+  text-decoration: none;
+  width: 90px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+body .body .sync:hover, body .body .sync:active {
+  background-color: #555555;
+  color: white;
+}
+
+body .body .syncWreapper {
+  text-align: right;
+}
+
+body .body .createList {
+  text-align: center;
+}
+
+body .body .createList h3 {
+  margin: 0 0 20px 0;
+}
+
+body .body .createList button {
+  background-color: #f1f1f1;
+  border-color: #4CAF50;
+  border-radius: 10px;
+  color: black;
+  padding: 3px 5px;
+  text-align: center;
+  margin: 2px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+body .body .createList button:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+body .body .createList input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+body .body .createList input:hover {
+  -webkit-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+body .body .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .body .header form {
+  margin: 0;
+}
+
+body .body table {
+  width: 100%;
+  margin-top: 25px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+body .body table tbody tr {
+  text-align: center;
+}
+
+body .body table tbody .deleteProduct {
+  background-color: #f1f1f1;
+  border-color: #f44336;
+  border-radius: 10px;
+  color: black;
+  padding: 3px 5px;
+  text-align: center;
+  margin: 2px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+body .body table tbody .deleteProduct:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+body .body table th {
+  background-color: #b5b5b5;
+}
+
+body .body table tr:nth-child(odd) {
+  background-color: #dddddd;
+}
+
+body .body form {
+  margin: 25px 0;
+  text-align: center;
+}
+
+body .body form input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+body .body form input:hover {
+  -webkit-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+body .body form button {
+  background-color: #f1f1f1;
+  border-color: #4CAF50;
+  border-radius: 10px;
+  color: black;
+  padding: 3px 5px;
+  text-align: center;
+  margin: 2px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+body .body form button:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+/*# sourceMappingURL=index.css.map */
